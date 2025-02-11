@@ -6,14 +6,17 @@ Este projeto demonstra o controle de um servomotor usando o módulo PWM do Raspb
 # Funções Gerais
 ## 1. setup_pwm(uint pin)
 Motivo: Configura o PWM no pino especificado para controlar o servomotor com uma frequência de 50Hz (período de 20ms).
+
 Uso: Inicializa o PWM no pino do servomotor.
 
 ## 2. move_servo(uint pin, uint pulse_width_us)
 Motivo: Move o servomotor para uma posição específica, ajustando o ciclo ativo do PWM.
+
 Uso: Controla a posição do servomotor (0°, 90°, 180°) com base na largura do pulso em microssegundos.
 
 ## 3. main()
 Motivo: Função principal que coordena a movimentação do servomotor e o controle do LED RGB.
+
 Uso: Inicializa o hardware, move o servomotor para posições específicas e realiza uma movimentação periódica suave entre 0° e 180°.
 
 # Motivos das Funções
