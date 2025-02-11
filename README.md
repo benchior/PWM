@@ -25,3 +25,7 @@ Controle de Servomotor: O servomotor é controlado por PWM, onde a largura do pu
 Integração com LED RGB: O LED RGB é utilizado para fornecer feedback visual durante a movimentação do servomotor, alternando seu estado conforme a posição do motor.
 
 Simulação no Wokwi: O código foi projetado para ser simulado no Wokwi, permitindo testes e validação sem a necessidade de hardware físico.
+
+# Video de funcionamento
+
+
